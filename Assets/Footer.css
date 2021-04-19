@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;    
+    padding: 50px 100px;
+    background: burlywood;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 0;    
+}
+
+footer .fcontainar{
+    display: flex;    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;    
+}
+
+footer .fcontainar .fsection{
+    margin-right: 30px;
+}
+
+footer .fcontainar .fsection.faboutus{
+    width: 40%;
+}
+
+footer .fcontainar h2{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* footer .containar h2:before{
+    content:  '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+} */
+
+footer p{
+    color: #222;
+}
+
+.fsigns{
+    margin-top: 20px;
+    display: flex;
+}
+
+.fsigns li{
+    list-style: none;
+}
+
+.fsigns li a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background:#222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+
+}
+
+.fsigns li a:hover{
+    background: skyblue;
+}
+
+.fsigns li a .fa{
+    color: #fff;
+    font-size: 20px;
+}
+
+.fquicklinks{
+    position:relative;
+    width: 25%;
+}
+
+.fquicklinks ul li{
+    list-style: none;
+}
+
+.fquicklinks ul li a{
+    color: #222;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.fquicklinks ul li a:hover{
+    color: #fff;
+}
+
+.fcontact{
+    width: calc(35% - 60px);
+    margin-right: 0 !important;    
+}
+
+.fcontact .finfo {
+    position: relative;
+}
+
+.fcontact .finfo li{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.fcontact .finfo li span:nth-child(1){
+    color: white;
+    font-size: 20px;    
+    margin-right: 10px;       
+}
+
+.fcontact .finfo li span{
+    color:#222;
+}
+
+.fcontact .finfo li a{
+    color:#222;
+    text-decoration: none;
+}
+
+.fcontact .finfo li a:hover{
+    color: #fff;
+}
+
+.fcopyrightText{
+    width: 100%;
+    background: #181818;
+    padding: 8px 100px;
+    vertical-align: middle;
+    text-align: center;
+    color: #999;
+    font-size: 14px;    
+}
+
+@media (max-width: 991px){
+
+    footer{
+        padding: 40px;                
+    }
+
+    footer .fcontainar{
+        flex-direction: column;        
+    }
+
+    footer .fcontainar .fsection{
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    footer .fcontainar .fsection.faboutus, .fquicklinks, .fcontact{
+        width: 100%;
+    }
+
+    .fcopyrightText{
+        padding: 8px 40px;        
+    }
+}

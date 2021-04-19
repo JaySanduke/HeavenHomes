@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapi.com/css?familiy=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Mcontainer{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.Mcontent-Msection{    
+    display: block;
+    float: left;
+    width: 55%;
+    margin-bottom: 100px;    
+}
+
+.Mimage-Msection{
+    float: right;
+    width: 40%;
+}
+
+.Mimage-Msection img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.Mcontent-Msection .Mtitle{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.Mcontent-Msection .Mcontent h2{
+    margin-top: 25px;
+    color: #5d5d5d;
+    font-size: 22px;
+}
+
+.Mcontent-Msection .Mcontent p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.Mcontent-Msection .Msocial{
+    margin-top: 40px;
+}
+
+.Mcontent-Msection .Msocial i{
+    color: skyblue;
+    font-size: 40px;
+    padding: 0px 10px;
+}
+
+.Mcontent-Msection .Msocial i:hover{
+    color: #3d3d3d;
+}
+
+@media screen and (max-width: 768px){
+    .Mcontainer{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .Mcontent-Msection{
+        float: none;
+        width: 100%;
+        display:block;
+        margin: auto;
+    }
+    .Mimage-Msection{
+        float: none;
+        width: 100%;
+        display: block;
+        margin-top: 50px;
+    }
+    .Mcontent-Msection .Mtitle{
+        text-align: center;
+        font-size: 19px;
+    }
+    .Mcontent-Msection .Msocial{
+        text-align: center;
+    }
+}
