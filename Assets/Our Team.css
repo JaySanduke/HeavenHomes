@@ -118,4 +118,17 @@ body::before{
     text-decoration: none;
     font-weight: 500;
     box-shadow: 0.9px 3px rgba(0, 0, 0, 0.4 );
+    
+ @media screen and (max-width:720px) {
+
+.Acontainer .Acard .Acontent{
+        transform: translateY(0px);
+        opacity: 0;        
+}
+
+.Acontainer .Acard:in-range .Acontent{
+    transform: translateY(0px);
+    opacity: 1;
+    transition: 1s;
+}
 }
