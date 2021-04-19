@@ -123,12 +123,6 @@ body::before{
 
 .Acontainer .Acard .Acontent{
         transform: translateY(0px);
-        opacity: 0;        
-}
-
-.Acontainer .Acard:in-range .Acontent{
-    transform: translateY(0px);
-    opacity: 1;
-    transition: 1s;
+        opacity: 1;        
 }
 }
